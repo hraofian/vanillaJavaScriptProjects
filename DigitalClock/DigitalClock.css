@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    background-color: #b5e7a0;
+
+}
+#all{
+    width: 400px;
+    border: solid ;
+}
+
+#title{
+    border: solid;
+    ;
+}
+
+#timer{
+    border: solid;
+}
+
+#back{
+    border: solid;
+}
