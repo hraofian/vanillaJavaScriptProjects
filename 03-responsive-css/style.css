@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-size: 16px;
+}
+
+.main-container{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0px auto;
+  font-size: 1em;
+}
+
+header , footer {
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav span {
+  margin-right: 15px;
+  border-radius: 10px;
+  border:  1px solid white;
+  padding: 5px 10px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+main .content{
+  padding: 20px;
+}
+
+main .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 10px;
+}
+
+main .menu span {
+border-bottom: 1px solid #444;
+margin-bottom: 3px;
+}
