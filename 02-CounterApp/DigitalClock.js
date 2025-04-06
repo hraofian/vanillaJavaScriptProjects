@@ -1,20 +1,34 @@
-let counter = Number(document.getElementById("counter").innerText);
+let counterTag = document.getElementById("counter");
+let counterValue = Number(document.getElementById("counter").innerText);
+
+changeColor();
+
+function setCounter(counter) {
+  document.getElementById("counter").innerText = counter;
+  changeColor();
+}
 
 document.getElementById("increase").addEventListener("click", () => {
-  counter += 1;
-  document.getElementById("counter").innerText = counter;
+  counterValue += 1;
+  setCounter(counterValue);
 });
 
 document.getElementById("decrease").addEventListener("click", () => {
-  counter -= 1;
-  document.getElementById("counter").innerText = counter;
+  counterValue -= 1;
+  setCounter(counterValue);
 });
 
 document.getElementById("reset").addEventListener("click", () => {
-  counter = 0;
-  document.getElementById("counter").innerText = counter;
+  counterValue = 0;
+  setCounter(counterValue);
 });
 
-if(counter>1){
-document.getElementById("counter").style.color = "red"
+function changeColor() {
+  if (counterValue > 0) {
+    counterTag.setAttribute("class", "green");
+  } else if (counterValue < 0) {
+    counterTag.setAttribute("class", "red");
+  } else {
+    counterTag.setAttribute("class", "yellow");
+  }
 }

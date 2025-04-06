@@ -83,10 +83,13 @@ body {
   color: #6b3c2c;
 }
 
-.green{
+.green {
   color: green;
 }
 
-.red{
+.red {
   color: red;
+}
+.yellow {
+  color: yellow;
 }
