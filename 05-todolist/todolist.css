@@ -26,7 +26,7 @@ body {
   justify-content: center;
   text-align: center;
 }
-.div-title p{
+.div-title p {
   border: solid;
 }
 
@@ -45,15 +45,54 @@ body {
   gap: 4px;
   padding: 1vw;
 }
-ul {
-  border: solid;
-  grid-column: 1/11;
-  gap: 4px;
-  padding: 1vw;
-}
+
 .add-container {
   border: solid;
   grid-column: 1/11;
   gap: 4px;
   padding: 1vw;
+}
+
+ul {
+  border: solid;
+  grid-column: 1/11;
+  gap: 4px;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+li {
+  border: solid;
+  padding: 0.2vw;
+  margin: 0.2vw;
+  flex-direction: row;
+  grid-column: 1/11;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+li p {
+  border: solid;
+  grid-column: 1/10;
+}
+
+#tick-icon,
+#edith-icon,
+#delete-icon {
+  width: 10px;
+  border: solid;
+  border-radius: 50%;
+  padding: 1.5px;
+  margin: 0.2vw;
+}
+
+#tick-icon {
+  grid-column: 10/11;
+}
+#edith-icon {
+  grid-column: 11/12;
+}
+#delete-icon {
+  grid-column: 12/13;
 }
