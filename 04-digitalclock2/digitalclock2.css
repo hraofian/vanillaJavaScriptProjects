@@ -20,33 +20,47 @@
   border-radius: 5%;
   max-width: 60vh;
   max-height: 50vh;
+  min-width: 250px;
+  min-height: 180px;
 }
 
 .title {
   background-color: #efca6e;
-  font-size: 3em;
+  font-size: 2em;
   width: 80%;
-  height: 30%;
-  padding: 5%;
+  height: 20%;
+  padding: 3%;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5%;
   font-weight: 900;
-  
 }
 
 .timer {
   background-color: #e67b32;
-  font-size: 4em;
+  font-size: 2.5em;
   width: 80%;
   height: 30%;
-  padding: 5%;
+  padding: 3%;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5%;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
+}
+
+.date {
+  font-size: 1.5em;
+  padding: 5%;
+  color: rgb(72, 34, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 650;
 }
