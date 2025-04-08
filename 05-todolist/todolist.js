@@ -1,2 +1,3 @@
-let addBox = document.getElementById("add-box")
- 
+let deletIcon = document.getElementsByClassName("check-icon")[0].innerHTML
+console.log(deletIcon)
+

@@ -28,6 +28,9 @@ body {
 }
 .div-title p {
   border: solid;
+  font-size: 100%;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main-container {
@@ -44,6 +47,7 @@ body {
   grid-column: 1/11;
   gap: 4px;
   padding: 1vw;
+  display: grid;
 }
 
 .add-container {
@@ -83,7 +87,33 @@ li p {
   align-content: center;
 }
 
-#delete-icon {
+
+
+.check-icon > i{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #016a0e;
+  padding: 3px;
+  border-radius: 900px;
+  color: #016a0e;
+  font-size: 10px;
+  margin: 2px;
+  background-color: white;
+}
+
+.edith-icon > i{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #1408ff;
+  padding: 3px;
+  border-radius: 900px;
+  color: #1408ff;
+  font-size: 10px;
+  margin: 2px;
+  background-color: white;
+}
+
+.delete-icon > i{
   width: 40px;
   height: 40px;
   border: 2px solid #ff0000;
@@ -95,35 +125,18 @@ li p {
   background-color: white;
 }
 
-#tick-icon {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #016a0e;
-  padding: 3px;
-  border-radius: 900px;
-  color: #016a0e;
-  font-size: 10px;
-  margin: 2px;
-  background-color: white;
-}
-#edith-icon {
-  width: 40px;
-  height: 40px;
-  border: 2px solid #0000ff;
-  padding: 3px;
-  border-radius: 900px;
-  color: #0000ff;
-  font-size: 10px;
-  margin: 2px;
-  background-color: white;
-}
 
-#tick-icon {
+.check-icon {
   grid-column: 10/11;
 }
-#edith-icon {
+.edith-icon {
   grid-column: 11/12;
 }
-#delete-icon {
+.delete-icon {
   grid-column: 12/13;
+}
+
+ul> li > span {
+  border: solid #e900fe;
+  border-radius: 50%;
 }
