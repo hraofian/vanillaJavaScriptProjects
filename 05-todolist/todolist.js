@@ -52,6 +52,9 @@ addButton.addEventListener("click", () => {
       e.target.parentElement.parentElement.remove();
     });
   }
+  
+    addBox.value =""
+    
 });
 
 let deleteIcon = document.querySelectorAll("#delete-icon");
@@ -61,3 +64,5 @@ for (i = 0; i < deleteIcon.length; i++) {
     e.target.parentElement.parentElement.remove();
   });
 }
+
+

@@ -1,0 +1,7 @@
+
+for new and profisional version add sub feature:
+1- add tick butoon
+2- add edith button
+3-add search box
+4-add select task and delete multiple task
+5-add select all and delet all
