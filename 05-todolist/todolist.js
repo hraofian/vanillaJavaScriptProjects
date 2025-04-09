@@ -1,3 +1,11 @@
-let deletIcon = document.getElementsByClassName("check-icon")[0].innerHTML
-console.log(deletIcon)
+let deleteIcon = document.querySelectorAll(".delete-icon");
 
+// console.log(deleteIcon.length);
+
+// deleteIcon[0].addEventListener("click",(e)=>{console.log(e.target)})
+
+for (i = 0; i < deleteIcon.length; i++) {
+  deleteIcon[i].addEventListener("click", (e) => {
+    console.log(e.target.parentElement.parentElement.remove());
+  });
+}

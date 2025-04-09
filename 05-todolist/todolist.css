@@ -87,9 +87,7 @@ li p {
   align-content: center;
 }
 
-
-
-.check-icon > i{
+.check-icon > i {
   width: 40px;
   height: 40px;
   border: 2px solid #016a0e;
@@ -101,7 +99,7 @@ li p {
   background-color: white;
 }
 
-.edith-icon > i{
+.edith-icon > i {
   width: 40px;
   height: 40px;
   border: 2px solid #1408ff;
@@ -113,7 +111,7 @@ li p {
   background-color: white;
 }
 
-.delete-icon > i{
+.delete-icon > i {
   width: 40px;
   height: 40px;
   border: 2px solid #ff0000;
@@ -125,7 +123,6 @@ li p {
   background-color: white;
 }
 
-
 .check-icon {
   grid-column: 10/11;
 }
@@ -134,9 +131,4 @@ li p {
 }
 .delete-icon {
   grid-column: 12/13;
-}
-
-ul> li > span {
-  border: solid #e900fe;
-  border-radius: 50%;
 }
