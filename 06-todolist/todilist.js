@@ -1,3 +1,9 @@
+var test1 = document.getElementsByTagName("h2")[0]
+test1.onclick = function(){
+  console.log("test11")
+}
+
+
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -18,6 +24,7 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
+
 
 // Add a "checked" symbol when clicking on a list item
 var list = document.querySelector('ul');
