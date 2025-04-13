@@ -1,3 +1,8 @@
 .close{
     background-color: yellow;
 }
+#addBtn{
+    border: solid;
+    border-width: 1px;
+    padding: 2px;
+}
