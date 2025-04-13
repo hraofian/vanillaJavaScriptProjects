@@ -1,3 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    border: solid;
+}
+.header{
+    background-color:#00afea ;
+}
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+}
+.title{
+    font-size: 4vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+ul{
+    border: solid;
+}
+
+.addInput{
+    
+}
+
 .close{
     background-color: yellow;
 }
@@ -6,3 +40,6 @@
     border-width: 1px;
     padding: 2px;
 }
+
+
+
