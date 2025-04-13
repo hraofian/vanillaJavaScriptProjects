@@ -1,7 +1,3 @@
-var test1 = document.getElementsByTagName("h2")[0]
-test1.onclick = function(){
-  console.log("test11")
-}
 
 
 // Create a "close" button and append it to each list item
