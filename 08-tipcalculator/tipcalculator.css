@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(116, 207, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: solid; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    min-width: 50vw;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    /* border: solid; */
+  }
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  font-weight: 900;
+}
+.mid-title{
+font-size: 15px;
+font-weight: 800;
+padding: 1px;
+margin-top: 5px;
+
+}
+.small-title{
+font-size: 12px;
+margin: 5px;
+padding: 5px;
+}
+
+
+input{
+    margin: 10px;
+}
+
+.tip-percentage{
+    display: flex;
+    flex-direction: row;
+}
+.tip-percentage > span{
+    background-color: rgb(8, 142, 245);
+    margin: 4px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#calculateTips{
+    background-color: rgb(8, 142, 245);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.bottom-container{
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.Result{
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 28px;
+    color: rgb(8, 142, 245);
+    font-weight: 900;
+}
