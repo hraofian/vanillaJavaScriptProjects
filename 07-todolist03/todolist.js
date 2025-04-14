@@ -4,7 +4,7 @@ let myUl = document.getElementsByTagName("ul")[0];
 
 for (let i = 0; i < myLi.length; i++) {
   let closeSpan = document.createElement("SPAN");
-  let closeText = document.createTextNode("x");
+  let closeText = document.createTextNode("\u2715");
   closeSpan.appendChild(closeText);
   closeSpan.className = "close";
   myLi[i].appendChild(closeSpan);
@@ -33,7 +33,7 @@ addBtn.addEventListener("click", (e) => {
     myUl.appendChild(newLi);
 
     let closeSpan = document.createElement("SPAN");
-    let closeText = document.createTextNode("x");
+    let closeText = document.createTextNode("\u2715");
     closeSpan.appendChild(closeText);
     closeSpan.className = "close";
     newLi.appendChild(closeSpan);
