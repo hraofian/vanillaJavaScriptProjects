@@ -5,7 +5,7 @@ Beginner Projects:
 2. Counter App - ok
 3. To-Do List - ok
 4. Tip Calculator - ok
-5. Color Flipper
+5. Color Flipper -ok
 6. Image Slider
 7. Simple Form Validator
 8. Random Quote Generator
