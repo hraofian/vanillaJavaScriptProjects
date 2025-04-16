@@ -1,10 +1,10 @@
 Vanilla JavaScript Project List (Elementary to Advanced)
 
 Beginner Projects:
-1. Digital Clock
-2. Counter App
-3. To-Do List
-4. Tip Calculator
+1. Digital Clock - ok
+2. Counter App - ok
+3. To-Do List - ok
+4. Tip Calculator - ok
 5. Color Flipper
 6. Image Slider
 7. Simple Form Validator
