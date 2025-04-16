@@ -19,7 +19,7 @@
 }
 
 #main-image {
-  width: 800px;
+  width: 600px;
 }
 
 .image-slide-div {
@@ -29,10 +29,10 @@
   justify-content: space-around;
   flex-wrap: wrap;
   /* border: solid blue; */
-  width: 800px;
+  width: 600px;
 }
 
 .image-slide-div > img {
-  width: 100px;
+  width: 75px;
   margin: 1px;
 }
