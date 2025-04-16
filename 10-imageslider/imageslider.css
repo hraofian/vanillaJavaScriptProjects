@@ -1,0 +1,38 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid;
+} */
+
+.main-container {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.main-image-div {
+  /* border: solid yellow; */
+}
+
+#main-image {
+  width: 800px;
+}
+
+.image-slide-div {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: solid blue; */
+  width: 800px;
+}
+
+.image-slide-div > img {
+  width: 100px;
+  margin: 1px;
+}
