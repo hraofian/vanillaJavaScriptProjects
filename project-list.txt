@@ -6,7 +6,7 @@ Beginner Projects:
 3. To-Do List - ok
 4. Tip Calculator - ok
 5. Color Flipper -ok
-6. Image Slider
+6. Image Slider - ok rewrite again js and make automatic slide show
 7. Simple Form Validator
 8. Random Quote Generator
 
