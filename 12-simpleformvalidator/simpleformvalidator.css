@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* border: solid; */
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.main-container > label {
+  margin-top: 5px;
+}
+.main-container > div {
+    display: flex;
+  }
+
+
+.main-container >input:focus {
+  background-color: rgb(209, 211, 211);
+}
+ #register{
+    width: 200px;
+    margin-top: 15px;
+    background-color: rgb(73, 156, 245);
+    color: white;
+    padding-top: 5px;
+     padding-bottom: 5px ;
+ }
+ #register:hover{
+    background-color: rgb(53, 113, 177);
+
+ }
+
+input {
+    background-color: rgb(243, 245, 245);
+
+  }
+
+label{
+    width: 300px;
+    display: flex;
+    /* border: solid; */
+ }
