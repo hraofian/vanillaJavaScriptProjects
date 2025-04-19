@@ -6,11 +6,14 @@
     <title>Simple Form Validator</title>
     <link rel="stylesheet" href="simpleformvalidator.css" />
   </head>
-  <body> 
+  <body>
     <form
-    autocomplete="on"
+    onsubmit="return validateForm()"
+        name="myform"
+        method="get"
+      autocomplete="on"
       class="main-container"
-      action="http://127.0.0.1:5500/12-simpleformvalidator/formactiontest.html"
+      
     >
       <div>
         <label for="fname">Fist Name:</label>
@@ -50,8 +53,8 @@
         <label for="postal-address">Postal Address:</label>
         <input type="text" name="" id="postal-address" />
       </div>
-      <input id="register" type="submit" value="Register" />
-      <input type="reset">
+      <input  id="register" type="submit" value="Register" />
+      <input type="reset" />
     </form>
     <script src="simpleformvalidator.js"></script>
   </body>

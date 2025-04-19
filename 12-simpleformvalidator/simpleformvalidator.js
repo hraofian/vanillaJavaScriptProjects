@@ -1,2 +1,7 @@
-let firstName = document.getElementById("fname").value;
- console.log(document.forms)
+function validateForm(){
+    let x = document.forms["myform"]["fname"].value
+    if (x=""){
+        alert("name must be filled")
+        return false
+    }
+}
