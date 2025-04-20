@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>enter the Special Code base on this format: 123A4567</h3>
+    <form action="">
+      <input type="text" pattern="[0-9]{3}[A-Z]{1}[0-9]{4}" />
+      <input type="submit" />
+    </form>
+    <h3>
+      A form with a password field that must contain 8 or more characters:
+    </h3>
+    <form action="">
+      <label for="pwd">Password:</label>
+      <input id="pwd" type="password" pattern=".{8,}" />
+      <input type="submit" />
+    </form>
+    <h3>
+      AA form with a password field that must contain 8 or more characters that
+      are of at least one number, and one uppercase and lowercase letter:
+    </h3>
+    <form action="">
+      <label for="pwd">Password:</label>
+      <input
+        id="pwd"
+        type="password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      />
+      <input type="submit" />
+    </form>
+    <script src="formvalidation05.js"></script>
+  </body>
+</html>
